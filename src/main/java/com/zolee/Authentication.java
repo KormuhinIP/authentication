@@ -11,11 +11,6 @@ public class Authentication {
 	@Value("${com.zolee.password}")
 	private String password;
 	
-	public Authentication() {
-		setUsername("zolee");
-		setPassword("zoli");
-	}
-
 	private void setUsername(String username) {
 		this.username = username;
 	}

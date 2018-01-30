@@ -23,7 +23,7 @@ public class LoginPage extends VerticalLayout implements View {
 	private Authentication Auth;
 	
 	@Autowired
-	public void setAUTH(Authentication tempAuth) {
+	public void setAuth(Authentication tempAuth) {
 		Auth = tempAuth;
 	}
 
