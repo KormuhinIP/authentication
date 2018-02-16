@@ -32,8 +32,6 @@ public class LoginPage extends VerticalLayout implements View {
 		panel.setSizeUndefined();
 		addComponent(panel);
 
-		Auth = new Authentication();
-		
 		FormLayout content = new FormLayout();
 		TextField username = new TextField("Username");
 		content.addComponent(username);
